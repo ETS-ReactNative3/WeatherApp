@@ -1,0 +1,166 @@
+.App {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.Side-panel {
+  position: absolute;
+  height: 75%;
+  right: 0px;
+  font-size: 17px;
+  line-height: 200%;
+  color: white;
+  padding: 15px;
+  background-color:rgba(6,116,173,0.5);
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.City-input {
+  background-color:rgba(0, 0, 0, 0);
+  padding: 5px;
+  border: none;
+  outline:none;
+  border-color: transparent;
+  color: white;
+  font-size:50px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.background1{
+   width: 100%;
+   height: 100%;
+   display: block;
+   align-items: center;
+   filter: blur(5px);
+}
+
+.background2{
+   width: 50%;
+   height: 50%;
+}
+
+.formatButton {
+  margin: 0;
+  padding: 1em 2em;
+  border: 0;
+  color: #fff;
+  background-color:rgba(20,43,88,0.6);
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: none;
+  outline: none;
+}
+
+button {
+  padding: 1em 2em;
+  position: absolute;
+  border: 0;
+  color: #fff;
+  background-color:rgba(20,43,88,0.6);
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+  z-index: 1;
+}
+
+button:hover {
+  background-color:rgba(20,43,88,0.4);
+}
+
+button.focused{
+  color: #fff;
+  background-color:rgba(20,43,88,0.4);
+}
+
+i{
+   width: 200px;
+   height: 50px;
+}
+
+.App-body {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  z-index: 1;
+  align-items: stretch;
+  background-color:rgba(128,128,128,0.5);
+  height: 25%;
+  width: 100%;
+  bottom: 0;
+}
+
+
+.Day-item {
+  display: flex;
+  flex-direction: column;
+  width: 14.3%;
+  cursor: pointer;
+  background-color:rgba(156,148,160,0.5);
+  color: #7B8585;
+  transition: 0.3s;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.Day-text {
+  display: flex;
+  border-radius: 25px;
+  align-self: center;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.Day-temp {
+  display: flex;
+  align-self: center;
+  margin: 10px;
+  font-size: 35px;
+  color: white;
+}
+
+.Day-item:hover {
+  background-color:rgba(195,190,198,0.7);
+}
+
+.Day-item.focused{
+  color: #fff;
+  background-color:rgba(195,190,198,0.7);
+}
+
+input{
+   color: black;
+}
+
+iframe{
+   top: 20px;
+}
+
+.formatButton{
+   font-size: 15px;
+}
+
+
+#forecasticon1, #forecasticon2, #forecasticon3, #forecasticon4, #forecasticon5, #forecasticon6, #forecasticon7 {
+   color: white;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   font-size: 2em;
+}
