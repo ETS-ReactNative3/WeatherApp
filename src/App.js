@@ -19,7 +19,7 @@ class App extends Component {
       wind: undefined,
       format: 'C',
       weather: '',
-      image: './colosseo.jpg',
+      image: './parma.jpg',
       toggle: true,
       index: 1,
       pressure: undefined,
@@ -192,9 +192,9 @@ class App extends Component {
     console.log("city set to " + city);
   }
 
-   static defaultProps = {
-      city: 'Rome',
-      image: './colosseo.jpg'
+  static defaultProps = {
+      city: 'Parma',
+      image: './parma.jpg'
     };
 
    _getWeatherInfo = (city) => {
